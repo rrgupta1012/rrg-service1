@@ -1,0 +1,138 @@
+
+.nav-bar-size
+{
+	margin-bottom: 0px !important;
+	position: sticky !important;
+}
+.nav-bar-style
+{
+	padding:0px 22px !important;
+}
+
+.navbar .container-fluid .navbar-nav a
+{
+	padding: 6px 15px;
+	margin-right: 5px;
+	vertical-align:middle;
+    border-radius: 5px;
+}
+.navbar .container-fluid .navbar-nav a:hover
+{
+	background: grey;
+	color:white;
+}
+.navbar .container-fluid .navbar-nav .active
+{
+	background: grey;
+	color: white;
+}
+
+.ul-size
+{
+	float: right !important;
+	margin:9px 0px !important;
+}
+
+/* end navbar section css*/
+
+/* start main image css*/
+
+.main-image
+{
+	margin: 0px 60px !important;
+	position: relative !important;
+
+}
+.image-text
+{
+	position: absolute;
+	padding: 12px 24px;
+	bottom: 0 ;
+	left: 0;
+	display: block;
+	opacity: 0.6;
+}
+.image-text-size
+{
+	margin: 10px 0px;
+}
+
+
+/* end of main image*/
+
+/* start of about */
+
+.about-container
+{
+	padding-top: 64px !important;
+    padding-left: 14% !important;
+    padding-right: 14% !important;    	
+}
+/* end of about container*/
+
+/* start of menu container*/
+.menu-container
+{
+	padding: 64px 200px !important;
+}
+ /* end of whole page */
+
+ /* start of media query*/
+ @media (max-width:764px )
+
+{
+    .nav-bar-size
+{
+	margin-bottom: 0px !important;
+	position: static !important;
+	z-index: 3 important;
+} 
+	.main-image
+{
+   margin-right: auto !important;
+   margin-left:  auto !important;
+   margin-top: 0px !important;
+   padding: 0px 0px !important;
+	position: relative !important;
+}
+
+.about-container
+{
+	padding: 64px 15px !important;
+}
+.menu-container
+{
+	padding: 64px 15px !important;
+}
+#about_pic
+{
+	display: none;
+}
+#mymenu
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.ul-size
+{
+	float:none !important;
+	text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
